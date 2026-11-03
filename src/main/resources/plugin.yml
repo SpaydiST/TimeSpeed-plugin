@@ -1,0 +1,24 @@
+name: TimeSpeed-plugin
+version: '${version}'
+
+main: org.example1.timeSpeedPlugin.TimeSpeedPlugin
+api-version: '26.3'
+load: POSTWORLD
+
+commands:
+  afk:
+    description: Переключить режим AFK
+    usage: /afk
+    permission: timespeed.afk
+  timespeed:
+    description: Быстрая перемотка времени
+    usage: /timespeed <sunrise|day|noon|sunset|night|midnight|число>
+    permission: timespeed.time
+
+permissions:
+  timespeed.afk:
+    description: Позволяет использовать /afk
+    default: true
+  timespeed.time:
+    description: Позволяет использовать /timespeed
+    default: op

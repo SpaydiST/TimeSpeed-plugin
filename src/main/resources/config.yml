@@ -1,0 +1,18 @@
+# Настройки скипа ночи
+enable-sleep-system: true
+max-sleep-speed: 100.0
+speed-lerp-factor: 0.15
+# Скорость перемотки командой /timespeed
+fast-time-speed: 100.0
+enable-thunder-skip: true
+# Предмет(ы), блокирующие сон: имена Material через запятую (например: diamond_sword, netherite_sword).
+# Сравнение идёт напрямую по Material (без подстрок), список разбирается один раз при загрузке.
+cursed-ring-item: ''
+# Проверять PDC-метку timespeed:cursed_ring (byte=1) на предметах — для кастомных колец.
+cursed-ring-pdc: false
+reset-phantoms-for-all: true
+
+# Настройки AFK
+enable-afk-system: true
+afk-timeout-minutes: 5
+enable-manual-afk: true
